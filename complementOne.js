@@ -1,5 +1,6 @@
 let binary = require('./decimalToBinary');
 
+// Inverter todos os bits
 exports.complement = (n) => {
   let numeroEmBinario = binary.binary(n);
   

@@ -1,8 +1,11 @@
 let complementOne = require('./complementOne');
 let y = complementOne.complement(4);
 
-function complementTwo(n) {
+// Complemento a dois irá add o bit 1 ao complemento a 2
+exports.complement = (n) => {
   i = n.length - 1;
+
+  // não se sabe onde irá parar
   for(;;){
     if(n[i] == 0){
       n[i] = 1;
@@ -16,5 +19,3 @@ function complementTwo(n) {
   return n;
 }
 
-let decimal = require('./binaryToDecimal');
-console.log(decimal.binaryToDecimal(complementTwo(y)));
