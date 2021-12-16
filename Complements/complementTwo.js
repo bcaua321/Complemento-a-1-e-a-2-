@@ -5,7 +5,7 @@ exports.complement = (n) => {
   // Variavel para iterar
   i = arr.length - 1;
 
-
+  // Irá somar o 1, ou seja, quando encontrar o primeiro 0, irá parar.
   while(i != -1){
     if(arr[i] == 0){
       arr[i] = 1;
