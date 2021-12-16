@@ -1,10 +1,8 @@
 <p align="center">
- <img src="./imgs/roadmap.jpg">
+ <img src="./imgs/roadmap.jpg" width="50%" height="70%">
 </p>
 
 # Como executar
-<h3>Na própria máquina:</h3>
-<p> Basta instalar o <a href="https://nodejs.org/en/">node</a> </p>
-- Executar no terminal: "node main.js";
+- Se quiser executar no PC, basta instalar o <a href="https://nodejs.org/en/">node</a> e executar no terminal: "node main.js".
 
-<h3>No <a href=""></a></h3>
+- Ou se preferir pode acessar <a href="https://replit.com/join/ljxkdqhegp-bcaua321">Replit</a>.
